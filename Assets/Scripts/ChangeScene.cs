@@ -10,6 +10,7 @@ public class ChangeScene : MonoBehaviour
     }
 
     public void ExitGame() {
+        Debug.Log("Exit");
         Application.Quit();
     }
 }
