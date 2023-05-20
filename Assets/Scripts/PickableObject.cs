@@ -26,7 +26,7 @@ public class PickableObject : MonoBehaviour
     public void PickUp() {
         switch (type) {
             case 1:
-                mainCharacter.movementSpeed += 3;
+                mainCharacter.initialSpeed += 3;
                 break;
 
             default:
